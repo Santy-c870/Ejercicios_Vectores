@@ -9,7 +9,7 @@ public class Ejercicio_1 {
         t = new int[5];
         for (int i = 0; i < 5; i++) {
             System.out.print("Introduzca un número: ");
-            t[i] = tecla.nextInt(); // ✅ Usar nextInt() para leer un entero
+            t[i] = tecla.nextInt(); 
         }
          System.out.println("Los números son:");
         for (int i = 0; i < 5; i++) {
